@@ -3,12 +3,12 @@
 ## Upstream versions
 
 brooklyn:
-    VERSION: 0.7.0-SNAPSHOT
+    VERSION: 0.7.0-DIFFUSION-SNAPSHOT
     BRANCH:  https://github.com/apache/incubator-brooklyn/tree/master
     COMMIT:  21d9a91fc31bb4b4b93cc77800cbe6643642cb01
 
 advanced-networking:
-    VERSION: 0.7.0-SNAPSHOT
+    VERSION: 0.7.0-DIFFUSION-SNAPSHOT
     BRANCH:  https://github.com/brooklyncentral/advanced-networking/tree/master
     COMMIT:  b424b60fd9ddc28ed733f4075c2edcdf15caf889
 
