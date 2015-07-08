@@ -50,7 +50,7 @@
         <dependency>
             <groupId>${jclouds.groupId}.labs</groupId>
             <artifactId>docker</artifactId>
-            <version>${jclouds.version}</version>
+            <version>${jclouds.labs.version}</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
