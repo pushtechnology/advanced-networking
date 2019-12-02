@@ -17,17 +17,4 @@
         <feature>brooklyn-networking</feature>
         <bundle>mvn:io.brooklyn.networking/brooklyn-networking-cloudstack/${project.version}</bundle>
     </feature>
-    <feature name="brooklyn-networking-vcloud-director-dependencies" version="${project.version}">
-        <bundle>mvn:com.rabbitmq/amqp-client/${rabbitmq.amqp-clinet.version}</bundle>
-        <bundle>mvn:com.vmware/rest-api-schemas/${vcloud.director.api.version}</bundle>
-        <bundle>mvn:com.vmware/vcloud-java-sdk/${vcloud.director.api.version}</bundle>
-    </feature>
-    <feature name="brooklyn-networking-vcloud-director" version="${project.version}">
-        <feature>brooklyn-networking</feature>
-        <feature>brooklyn-networking-vcloud-director-dependencies</feature>
-        <bundle>mvn:io.brooklyn.networking/brooklyn-networking-vcloud-director/${project.version}</bundle>
-        <bundle>
-            mvn:io.brooklyn.networking/brooklyn-networking-vcloud-director-portforwarding/${project.version}
-        </bundle>
-    </feature>
 </features>
